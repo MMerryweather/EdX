@@ -40,6 +40,7 @@
 * Fords focus was on speed
 
 #### Definitions
+
 * Processing Time = p = time for 1 unit, eg 5, 4, 6min
 * Flow Time = Time to process a unit through the process = 15min
 * Resource Capacity = 1/p, max N per unit time
@@ -50,3 +51,17 @@
 		- Paint: 1 / 6 = 10 boards per hour **BOTTLENECK**
 * Process Capacity  = Minimum resource capacity in the process
 	- Bottlneck, slowest process
+
+### Finding the bottleneck - Part 2
+
+* Process Capacity = bottleneck capacity
+* Flow rate = Process Capacity assuming enough raw materials and we can sell every skateboard we make
+* Resource Utilization = Flow Rate / Resource Capacity
+* Cannot be >100%
+* Example:
+	- Assembly: 10 / 12 = 83%
+	- Sand: 	10 / 15 = 66%
+	- Paint: 	10 / 10 = 100% 
+* Focus needs to be on high utilization resources
+* Low utilized assets have idle time
+
