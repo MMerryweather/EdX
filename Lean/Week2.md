@@ -24,3 +24,29 @@
  	- rectangle for processes
 
 ### Finding the bottleneck - Part 1
+
+* Process Capacity = Max number of units produced per unit of time
+* How to measure?
+	- Materials going in
+	- Resources turn materials into products
+	- Demand (If no demand, don't make anything)
+	- Capacity focuses on the second point
+* Eg for skate board
+	- 5min for assembly
+	- 4min for sand
+	- 6min for paint
+	- **15min Total**
+* If no inventory, its a sequential process
+* Fords focus was on speed
+
+#### Definitions
+* Processing Time = p = time for 1 unit, eg 5, 4, 6min
+* Flow Time = Time to process a unit through the process = 15min
+* Resource Capacity = 1/p, max N per unit time
+	- If there are m resources then its m/p
+	- Capacity Example
+		- Assembly: 1 / 5 = 12 boards per hour
+		- Sand: 1 / 4 = 15 boards per hour
+		- Paint: 1 / 6 = 10 boards per hour **BOTTLENECK**
+* Process Capacity  = Minimum resource capacity in the process
+	- Bottlneck, slowest process
