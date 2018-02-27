@@ -41,8 +41,8 @@
 
 #### Definitions
 
-* Processing Time = p = time for 1 unit, eg 5, 4, 6min
-* Flow Time = Time to process a unit through the process = 15min
+* Processing Time = p = (4/5/6) = Time it takes for an activity to process one flow unit
+* Flow Time = (15min) = Time to process a unit through the process.
 * Resource Capacity = 1/p, max N per unit time
 	- If there are m resources then its m/p
 	- Capacity Example
@@ -51,12 +51,13 @@
 		- Paint: 1 / 6 = 10 boards per hour **BOTTLENECK**
 * Process Capacity  = Minimum resource capacity in the process
 	- Bottlneck, slowest process
-
-### Finding the bottleneck - Part 2
-
 * Process Capacity = bottleneck capacity
 * Flow rate = Process Capacity assuming enough raw materials and we can sell every skateboard we make
 * Resource Utilization = Flow Rate / Resource Capacity
+
+### Finding the bottleneck - Part 2
+
+* Resource utilisation
 * Cannot be >100%
 * Example:
 	- Assembly: 10 / 12 = 83%
@@ -65,3 +66,24 @@
 * Focus needs to be on high utilization resources
 * Low utilized assets have idle time
 
+### Finding the bottleneck - Example
+
+* Another example of capacity analysis
+* Assume
+* Chair factory
+	- Base = 6 min
+	- Upholstery = 10 min
+	- Assembly = 8 min
+* Flow unit = 1 office chair
+* Flow time = 24 min
+* Capacity
+	- Base = 		1 / 6 	= 10 units/h
+	- Upholstery = 	1 / 10 	= 6 units/h
+	- Assembly = 	1 / 8 	= 7.5 units/h
+* Process Capacity = 6 units/h
+* Flow Rate = 6 units/h (becuase unconstrained at either market or material side)
+* Resource Utilisation
+	- Base = 		6 / 10 	= 60%
+	- Upholstery = 	6 / 6 	= 100%
+	- Assembly = 	6 / 7.5 = 80%
+* Their is idle time in Base and Assembly steps
