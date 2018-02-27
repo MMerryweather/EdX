@@ -87,3 +87,49 @@
 	- Upholstery = 	6 / 6 	= 100%
 	- Assembly = 	6 / 7.5 = 80%
 * Their is idle time in Base and Assembly steps
+
+### Littles Law
+
+* I = RT
+* Inventory = Flow Rate x Flow Time
+	- Flow Time = time to comple a process
+* MIT Professor
+* Avg customers = average arrival rate x average time in system
+* Shirt example
+	- Insert: 	3 min/u 	20 u/h
+	- Cut:		3 min/u 	20 u/h
+	- Sew:		6 min/U 	10 u/h **BOTTLENECK**
+	- FLOW TIME: 12 mins = 0.2 h
+	- FLOW RATE: 6 mins  = 10 u/h
+	- Inventory: I = RT, I = 0.2 h x 10 u/h = 2u
+* We have two shirts in inventory at any given time
+* 1 at bottleneck always
+* 1 somewhere between insert and cut
+* 2 = Critical WIP
+* Inventory above Critical WIP will cause process time to increase
+* If we push 3 shirts in, then according to Littles Law
+	- Rate stays the same 10 u/h (R)
+	- Inventory goes to 3 u (I)
+	- I = RT
+	- T = I / R
+	- T = 3 / 10 = 0.3 h/u > 0.2
+* Significance for lean production
+	- Speed / Flow Time
+	- Bottlenecks
+	- Process Capacity
+	- Related by inventory
+* Back to 7 Wastes (wrt I = RT)
+	- Transportation 	T
+	- Inventory 		I
+	- Motion 			T
+	- Waiting 			R
+	- Over Processing 	R
+	- Overproduction 	I
+	- Defects 			I
+
+
+### Variability
+
+### Takt Time and Demand Management
+
+## Week 3: Continuous Flow: Setup Time Reduction
